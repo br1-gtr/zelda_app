@@ -1,0 +1,17 @@
+.link_container {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	& .link_alias {
+		width: 250px;
+	}
+	& .link_btn-container {
+		& .btn_edit {
+			background-color: rgb(255, 214, 127);
+		}
+		& .btn_delete {
+			background-color: rgb(255, 127, 127);
+		}
+	}
+}
