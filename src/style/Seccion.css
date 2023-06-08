@@ -1,6 +1,10 @@
 .seccion_container {
-	width: 100%;
-	background-color: rgba(238, 248, 218, 0.603);
+	max-width: 250px;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid rgb(236, 236, 236);
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
 	& .seccion_btn-container {
 		width: 100%;
 		display: flex;

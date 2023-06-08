@@ -5,7 +5,6 @@ import { Seccion } from './components/Seccion';
 
 function App() {
 	const [cat, setCat] = useState([]);
-
 	const filtrarCategorias = (datos) => {
 		//arr categorias total
 		let catAux = [];
@@ -27,18 +26,14 @@ function App() {
 	}, []);
 
 	return (
-		<>
-			<button
-				onClick={() => {
-					console.log(cat);
-				}}
-			>
-				click
-			</button>
+		<div className="app">
 			<h1>LINK-ED</h1>
-			<Seccion categoria={cat[0]} />
-		</>
+			<div className="contenedor">
+				{cat.map((categoria) => {
+					return <Seccion categoria={categoria} dataEnlaces={DATOS_EXCEL} />;
+				})}
+			</div>
+		</div>
 	);
 }
-
 export default App;
