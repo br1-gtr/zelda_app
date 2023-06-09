@@ -3,8 +3,12 @@
 	padding: 5px;
 	margin: 5px;
 	border: 1px solid rgb(236, 236, 236);
-	border-radius: 5px;
-	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+	transition: 0.3s all;
+	& .seccion_titulo {
+		text-align: center;
+	}
 	& .seccion_btn-container {
 		width: 100%;
 		display: flex;
@@ -24,4 +28,9 @@
 			background-color: rgb(255, 127, 127);
 		}
 	}
+}
+& .seccion_container:hover {
+	transform: scale(1.02);
+	background-color: rgba(127, 166, 202, 0.404);
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
 }
