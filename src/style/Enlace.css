@@ -1,21 +1,22 @@
+@import './Color.css';
 .link_container {
 	padding: 1px;
-	border-top: 1px solid rgba(255, 255, 255, 0.671);
+	border-top: 1px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	& .link_alias {
-		/*border: 0.5px solid rgb(226, 226, 226);*/
+		font-size: 15px;
 		padding: 2px 5px;
 		border-radius: 3px;
-		color: black;
-		width: 250px;
+		color: var(--color00);
+		width: 200px;
 		text-decoration: none;
 		transition: 0.2s all;
 	}
 	& .link_alias:hover {
-		background-color: rgb(72, 117, 158);
-		color: rgb(255, 255, 255);
+		background-color: var(--color01);
+		color: var(--color03);
 	}
 	& .link_btn-container {
 		& .btn_edit {

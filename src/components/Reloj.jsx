@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-export const Reloj = () => {
+export const Reloj = ({ estadoScroll }) => {
 	const [time, setTime] = useState();
 	useEffect(() => {
 		setInterval(() => {
@@ -7,5 +7,5 @@ export const Reloj = () => {
 			setTime(datosHora.toLocaleTimeString());
 		}, 1000);
 	}, []);
-	return <div>{time}</div>;
+	return <div style={{ fontSize: estadoScroll ? 16 : 20 }}>{time}</div>;
 };

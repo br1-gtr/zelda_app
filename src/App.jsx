@@ -1,7 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import { DATOS_EXCEL } from './DATOS_EXCEL/DATOS_EXCEL.js';
-import { Reloj } from './components/Reloj';
+import { Header } from './components/Header';
 import { Seccion } from './components/Seccion';
 
 function App() {
@@ -28,8 +28,7 @@ function App() {
 
 	return (
 		<div className="app">
-			<Reloj />
-			<h1>LINK-ED</h1>
+			<Header />
 			<div className="contenedor">
 				{cat.map((categoria) => {
 					return <Seccion categoria={categoria} dataEnlaces={DATOS_EXCEL} />;

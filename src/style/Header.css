@@ -1,0 +1,16 @@
+@import './Color.css';
+.header_contenedor {
+	font-size: 22px;
+	color: #eeeeee;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	background-color: #222831;
+}
+.header-small {
+	height: 30px;
+	font-size: 15px;
+}
