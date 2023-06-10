@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { DATOS_EXCEL } from './DATOS_EXCEL/DATOS_EXCEL.js';
 import { Header } from './components/Header';
 import { Seccion } from './components/Seccion';
+import { NavFooter } from './components/NavFooter';
 
 function App() {
 	const [cat, setCat] = useState([]);
@@ -34,6 +35,7 @@ function App() {
 					return <Seccion categoria={categoria} dataEnlaces={DATOS_EXCEL} />;
 				})}
 			</div>
+			<NavFooter />
 		</div>
 	);
 }

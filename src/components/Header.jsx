@@ -1,6 +1,7 @@
 import { Reloj } from './Reloj';
 import '../style/Header.css';
 import { useState } from 'react';
+import { FaLink } from 'react-icons/fa';
 export const Header = () => {
 	const [positionScroll, setPositionScroll] = useState(false);
 
@@ -18,7 +19,11 @@ export const Header = () => {
 		<div
 			className={`header_contenedor ${positionScroll ? 'header-small' : ''}`}
 		>
-			<h1>LINK-ED</h1>
+			<div className="header_titulo-cont">
+				<FaLink size={positionScroll ? 25 : 30} className="titulo_icon" />
+				<h1>LINK ED</h1>
+			</div>
+
 			<Reloj estadoScroll={positionScroll} />
 		</div>
 	);

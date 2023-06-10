@@ -1,5 +1,6 @@
 @import './Color.css';
 .header_contenedor {
+	min-width: 380px;
 	font-size: 22px;
 	color: #eeeeee;
 	height: 50px;
@@ -9,6 +10,18 @@
 	width: 100%;
 	position: fixed;
 	background-color: #222831;
+	& .header_titulo-cont {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		& .titulo_icon {
+			color: var(--color02);
+			transition: 0.2s all;
+		}
+	}
+}
+.header_contenedor:hover .titulo_icon {
+	transform: rotate(90deg);
 }
 .header-small {
 	height: 30px;

@@ -25,7 +25,6 @@ export const Seccion = ({ categoria, dataEnlaces }) => {
 			{links.map((e) => {
 				return <Enlace alias={e.alias} enlace={e.enlace} />;
 			})}
-
 			{/* btns<div className="seccion_btn-container">
 				<button className="btn_agregar-enlace">
 					<AiOutlinePlusCircle size={25} />
