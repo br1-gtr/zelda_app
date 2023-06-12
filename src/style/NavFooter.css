@@ -32,3 +32,26 @@
 		transform: scale(1.2);
 	}
 }
+@media (width < 1024px) {
+	.nav-footer_contenedor {
+		height: 30px;
+		& .nav-footer_btn {
+			width: 45px;
+			height: 45px;
+			top: -17px;
+		}
+	}
+}
+@media (width < 600px) {
+	.nav-footer_contenedor {
+		height: 24px;
+		& .nav-footer_btn {
+			width: 38px;
+			height: 38px;
+			top: -14px;
+			& .nav-footer_icon {
+				height: 21px;
+			}
+		}
+	}
+}

@@ -27,12 +27,12 @@ export const DATOS_EXCEL = [
 	{
 		enlace: 'http://www.omnilineas.com.ar/buenos-aires/colectivos/',
 		alias: 'Omnilineas',
-		categoria: 'Opciones Colectivos y mas',
+		categoria: 'Opciones Colectivos +',
 	},
 	{
 		enlace: 'http://www.viaja-facil.com/',
 		alias: 'Viaja-Facil',
-		categoria: 'Opciones Colectivos y mas',
+		categoria: 'Opciones Colectivos +',
 	},
 	{
 		enlace: 'http://www.youtube.com/',

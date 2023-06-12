@@ -36,3 +36,22 @@
 	background-color: var(--color02B);
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
 }
+
+@media (width < 1024px) {
+	.seccion_container {
+		width: 190px;
+		padding: 2px;
+		margin: 5px;
+		& .seccion_titulo {
+			font-size: 16px;
+		}
+	}
+}
+@media (width < 600px) {
+	.seccion_container {
+		width: 160px;
+		& .seccion_titulo {
+			font-size: 14px;
+		}
+	}
+}

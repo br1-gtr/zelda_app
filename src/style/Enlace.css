@@ -27,3 +27,19 @@
 		}
 	}
 }
+@media (width < 1024px) {
+	.link_container {
+		& .link_alias {
+			font-size: 13px;
+			width: 190px;
+		}
+	}
+}
+@media (width < 600px) {
+	.link_container {
+		& .link_alias {
+			font-size: 11px;
+			width: 160px;
+		}
+	}
+}
