@@ -34,7 +34,7 @@ export const NavFooter = () => {
 				<BsFillCalendarWeekFill size={iconoDim} className="nav-footer_icon" />
 			</a>
 			<div className="calendario_contenedor" ref={calendarioRef}>
-				<Calendar />
+				<Calendar className="calendario" />
 			</div>
 		</div>
 	);

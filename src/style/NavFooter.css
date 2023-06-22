@@ -34,13 +34,43 @@
 }
 /*CALENDARIO*/
 .calendario_contenedor {
-	background-color: rgba(0, 0, 0, 0.377);
+	background-color: var(--color01);
 	position: absolute;
-	top: -310px;
+	top: -315px;
 	right: 10px;
+	border: 5px solid var(--color01);
+	border-radius: 6px;
+	& .calendario {
+		background-color: var(--color03);
+	}
 }
 .calendario_display-controlador {
 	display: none;
+}
+
+/*CALENDARIO-CLASES NATIVAS*/
+.react-calendar {
+	border: 3px solid var(--color03B);
+}
+.react-calendar__navigation {
+	background-color: var(--color01);
+	& button {
+		color: var(--color03);
+		/*border-top-left-radius: 8px;
+		border-top-right-radius: 8px;*/
+	}
+	& button:hover {
+		color: var(--color01);
+	}
+}
+.react-calendar__viewContainer {
+	background-color: var(--color03);
+	& button {
+		border-radius: 3px;
+	}
+}
+abbr {
+	text-decoration: none;
 }
 @media (width < 1024px) {
 	.nav-footer_contenedor {
