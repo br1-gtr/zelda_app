@@ -8,9 +8,10 @@
 .app {
 	width: auto;
 	min-width: 380px;
-
+	position: relative;
 	background-color: #eeeeee;
 	& .contenedor {
+		position: relative;
 		width: 100%;
 		height: auto;
 		min-height: 100vh;

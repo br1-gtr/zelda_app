@@ -32,6 +32,16 @@
 		transform: scale(1.2);
 	}
 }
+/*CALENDARIO*/
+.calendario_contenedor {
+	background-color: rgba(0, 0, 0, 0.377);
+	position: absolute;
+	top: -310px;
+	right: 10px;
+}
+.calendario_display-controlador {
+	display: none;
+}
 @media (width < 1024px) {
 	.nav-footer_contenedor {
 		height: 30px;

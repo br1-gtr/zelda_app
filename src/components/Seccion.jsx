@@ -18,7 +18,7 @@ export const Seccion = ({ categoria, dataEnlaces }) => {
 		filtrarEnlacesCategoria(dataEnlaces);
 	}, []);
 
-	console.log(links);
+	//console.log(links);
 	return (
 		<div className="seccion_container">
 			<h3 className="seccion_titulo">{categoria}</h3>
