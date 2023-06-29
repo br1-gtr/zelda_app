@@ -1,5 +1,6 @@
 @import './Color.css';
 .header_contenedor {
+	z-index: 10;
 	min-width: 380px;
 	font-size: 22px;
 	color: #eeeeee;
@@ -27,6 +28,24 @@
 	height: 30px;
 	font-size: 15px;
 	transition: 0.2s all;
+}
+/*RELOJ*/
+.reloj {
+	background-color: #222831;
+	position: absolute;
+	bottom: -15px;
+	right: 50px;
+	border: 1px solid var(--color02);
+	border-radius: 14px;
+	& div {
+		padding: 1px 8px;
+		color: var(--color03B);
+	}
+}
+.contraste_bg_reloj {
+	transition: 0.3s;
+	background-color: #507377;
+	/*background-color: #2e3641;*/
 }
 
 @media (width < 1024px) {

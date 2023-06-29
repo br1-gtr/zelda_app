@@ -1,7 +1,7 @@
 import { Reloj } from './Reloj';
-import '../style/Header.css';
 import { useState } from 'react';
 import { FaLink } from 'react-icons/fa';
+import '../style/Header.css';
 export const Header = () => {
 	const [positionScroll, setPositionScroll] = useState(false);
 

@@ -1,11 +1,21 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import '../style/Header.css';
 export const Reloj = ({ estadoScroll }) => {
 	const [time, setTime] = useState();
+	const timeRef = useRef([]);
+
 	useEffect(() => {
 		setInterval(() => {
-			const datosHora = new Date();
-			setTime(datosHora.toLocaleTimeString());
+			const datosTiempo = new Date();
+			const datosHora = datosTiempo.toLocaleTimeString().substring(0, 5);
+			setTime(datosHora);
+			timeRef.current.classList.toggle('contraste_bg_reloj');
+			//console.log(datosHora.toLocaleTimeString().substring(0, 5));
 		}, 1000);
 	}, []);
-	return <div style={{ fontSize: estadoScroll ? 16 : 20 }}>{time}</div>;
+	return (
+		<div className="reloj" ref={timeRef}>
+			<div style={{ fontSize: estadoScroll ? 16 : 20 }}>{time}</div>
+		</div>
+	);
 };
