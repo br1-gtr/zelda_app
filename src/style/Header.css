@@ -3,14 +3,14 @@
 	z-index: 10;
 	min-width: 380px;
 	font-size: 22px;
-	color: #eeeeee;
+	color: var(--color03);
 	height: 50px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
 	position: fixed;
-	background-color: #222831;
+	background-color: var(--color00);
 	& .header_titulo-cont {
 		display: flex;
 		justify-content: center;
@@ -44,7 +44,7 @@
 }
 .contraste_bg_reloj {
 	transition: 0.3s;
-	background-color: #507377;
+	background-color: #91eb55;
 	/*background-color: #2e3641;*/
 }
 

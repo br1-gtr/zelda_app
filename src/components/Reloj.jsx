@@ -9,8 +9,13 @@ export const Reloj = ({ estadoScroll }) => {
 			const datosTiempo = new Date();
 			const datosHora = datosTiempo.toLocaleTimeString().substring(0, 5);
 			setTime(datosHora);
-			timeRef.current.classList.toggle('contraste_bg_reloj');
-			//console.log(datosHora.toLocaleTimeString().substring(0, 5));
+			//console.log('asd');
+			//timeRef.current.classList.toggle('contraste_bg_reloj');
+			if (timeRef.current.classList.contains('contraste_bg_reloj')) {
+				timeRef.current.classList.remove('contraste_bg_reloj');
+			} else {
+				timeRef.current.classList.add('contraste_bg_reloj');
+			}
 		}, 1000);
 	}, []);
 	return (

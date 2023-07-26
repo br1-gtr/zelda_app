@@ -1,11 +1,13 @@
 @import './Color.css';
 .seccion_container {
+	background-color: var(--color02B);
+	color: var(--color03);
 	width: 240px;
 	padding: 5px;
 	margin: 8px;
-	border: 1px solid white;
+	border: 2px solid var(--color02B);
 	border-radius: 3px;
-	box-shadow: 2px 2px 5px var(--color01B);
+	/*box-shadow: 2px 2px 5px var(--color01B);*/
 	transition: 0.3s all;
 	& .seccion_titulo {
 		font-size: 20px;
