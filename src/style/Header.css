@@ -33,13 +33,34 @@
 .reloj {
 	background-color: #222831;
 	position: absolute;
-	bottom: -15px;
+	bottom: -13px;
 	right: 50px;
-	border: 1px solid var(--color02);
-	border-radius: 14px;
+	border: 2px solid var(--color02);
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	& div {
 		padding: 1px 8px;
-		color: var(--color03B);
+		color: var(--color03);
+		letter-spacing: 1px;
+	}
+	& div::after {
+		content: ':';
+		animation: puntosReloj 2s infinite;
+		position: absolute;
+		right: 46.2%;
+	}
+}
+@keyframes puntosReloj {
+	0% {
+		color: rgb(192, 192, 192);
+	}
+	50% {
+		color: rgb(81, 85, 80);
+	}
+	100% {
+		color: rgb(192, 192, 192);
 	}
 }
 .contraste_bg_reloj {
