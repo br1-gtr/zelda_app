@@ -16,12 +16,19 @@
 		justify-content: center;
 		align-items: center;
 		& .titulo_icon {
+			/*estilo para icono de titulo "S"*/
+			color: var(--color02);
+			transition: 0.2s all;
+		}
+		& .titulo_img {
+			height: 30px;
 			color: var(--color02);
 			transition: 0.2s all;
 		}
 	}
 }
 .header_contenedor:hover .titulo_icon {
+	/*hover para icono de titulo "S"*/
 	transform: rotate(90deg);
 }
 .header-small {

@@ -18,7 +18,7 @@ export const NavFooter = () => {
 	return (
 		<div className="nav-footer_contenedor">
 			<a
-				href="https://www.qwant.com/?l=es"
+				href="https://www.startpage.com/es/"
 				target="_blank"
 				className="nav-footer_btn"
 			>

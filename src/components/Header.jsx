@@ -2,6 +2,7 @@ import { Reloj } from './Reloj';
 import { useState } from 'react';
 import { FaLink } from 'react-icons/fa';
 import '../style/Header.css';
+import imgTitulo from '../assets/img/img_titulo_3.png';
 export const Header = () => {
 	const [positionScroll, setPositionScroll] = useState(false);
 
@@ -20,7 +21,8 @@ export const Header = () => {
 			className={`header_contenedor ${positionScroll ? 'header-small' : ''}`}
 		>
 			<div className="header_titulo-cont">
-				<FaLink size={positionScroll ? 25 : 30} className="titulo_icon" />
+				<img src={imgTitulo} alt="asd" className="titulo_img" />
+				{/*<FaLink size={positionScroll ? 25 : 30} className="titulo_icon" />*/}
 				<h1>LINK ED</h1>
 			</div>
 
