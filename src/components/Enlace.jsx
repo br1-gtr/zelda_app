@@ -3,7 +3,7 @@ import '../style/Enlace.css';
 export const Enlace = ({ alias, enlace }) => {
 	return (
 		<div className="link_container">
-			<a className="link_alias" href={enlace} target=".blank">
+			<a className="link_alias" href={enlace} target="_blank">
 				{alias}
 			</a>
 			{/* btns <div className="link_btn-container">
