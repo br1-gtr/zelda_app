@@ -6,12 +6,12 @@ export const DATOS_EXCEL = [
 	},
 	{
 		enlace: 'https://duckduckgo.com/',
-		alias: 'DuckDuckGo (privacidad; bangs)',
+		alias: 'DuckDuckGo (priv;bangs)',
 		categoria: '01 - Buscadores',
 	},
 	{
 		enlace: 'https://gibiru.com',
-		alias: 'Gibiru (privacidad; s/censura; contenidos)',
+		alias: 'Gibiru (priv;s/censura;contenidos)',
 		categoria: '01 - Buscadores',
 	},
 	{
@@ -26,17 +26,17 @@ export const DATOS_EXCEL = [
 	},
 	{
 		enlace: 'https://www.qwant.com/?l=es',
-		alias: 'Qwant (privacidad; completo)',
+		alias: 'Qwant (priv;completo)',
 		categoria: '01 - Buscadores',
 	},
 	{
 		enlace: 'https://www.searchencrypt.com/home',
-		alias: 'Search Encrypt (privacidad; cifrado)',
+		alias: 'Search Encrypt (priv;cifrado)',
 		categoria: '01 - Buscadores',
 	},
 	{
 		enlace: 'https://www.startpage.com/es/',
-		alias: 'StartPage (privacidad; google)',
+		alias: 'StartPage (priv;google)',
 		categoria: '01 - Buscadores',
 	},
 	{
@@ -87,63 +87,63 @@ export const DATOS_EXCEL = [
 	{
 		enlace: 'https://www.google.com/intl/es-419_ar/drive/',
 		alias: 'Google Drive',
-		categoria: '03 - Almacenamieto Nube',
+		categoria: '03 - Almacenamiento Nube',
 	},
 	{
 		enlace: 'https://mega.io/es',
 		alias: 'Mega',
-		categoria: '03 - Almacenamieto Nube',
+		categoria: '03 - Almacenamiento Nube',
 	},
 	{
 		enlace:
 			'https://www.microsoft.com/es-ar/microsoft-365/onedrive/online-cloud-storage',
 		alias: 'Microsoft Onedrive',
-		categoria: '03 - Almacenamieto Nube',
+		categoria: '03 - Almacenamiento Nube',
 	},
 	{
 		enlace: 'https://wetransfer.com/',
 		alias: 'Wetransfer',
-		categoria: '03 - Almacenamieto Nube',
+		categoria: '03 - Almacenamiento Nube',
 	},
 	{
 		enlace: 'https://meet.jit.si/',
 		alias: 'Jitsi Meet',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://apps.google.com/meet/?hs=197',
 		alias: 'Meet Google',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://www.messenger.com/',
 		alias: 'Messenger FB',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://teams.microsoft.com',
 		alias: 'Microsoft Teams',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://web.telegram.org/',
 		alias: 'Telegram',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://api.whatsapp.com/send?phone=XXXXXXXXXXX',
 		alias: 'WA sin nro agendado',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://web.whatsapp.com/',
 		alias: 'Whatsapp',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://us04web.zoom.us/meeting#/upcoming',
 		alias: 'Zoom',
-		categoria: '04 - Mensajeria',
+		categoria: '04 - Mensajería',
 	},
 	{
 		enlace: 'https://mail.google.com/mail/u/0/#inbox',
@@ -269,27 +269,27 @@ export const DATOS_EXCEL = [
 	{
 		enlace: 'https://daseininstituto.educativa.org/index.cgi?id_curso=111',
 		alias: 'Dasein Instituto',
-		categoria: '09 – Educacion',
+		categoria: '09 – Educación',
 	},
 	{
 		enlace: 'https://www.dolus.com.ar',
 		alias: 'Dolus - Counseling Duelos',
-		categoria: '09 – Educacion',
+		categoria: '09 – Educación',
 	},
 	{
 		enlace: 'https://es.duolingo.com/',
 		alias: 'Duolingo Idiomas',
-		categoria: '09 – Educacion',
+		categoria: '09 – Educación',
 	},
 	{
 		enlace: 'https://elfaroasociacion.org.ar/',
 		alias: 'El Faro Asociacion',
-		categoria: '09 – Educacion',
+		categoria: '09 – Educación',
 	},
 	{
 		enlace: 'https://translate.google.com.ar/',
 		alias: 'Traductor Google',
-		categoria: '09 – Educacion',
+		categoria: '09 – Educación',
 	},
 	{
 		enlace: 'https://www.bumeran.com.ar/',
@@ -388,6 +388,11 @@ export const DATOS_EXCEL = [
 	{
 		enlace: 'https://mitorrent.me/',
 		alias: 'mitorrent.me',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'http://www.paginasblancas.com.ar/',
+		alias: 'Paginasblancas',
 		categoria: '13 – Otros',
 	},
 	{
