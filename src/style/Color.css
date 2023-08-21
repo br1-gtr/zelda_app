@@ -1,4 +1,4 @@
-:root {
+/*:root {
 	--color00: #1b1b1b;
 	--color01: #303030;
 	--color01B: #a0bceb3b;
@@ -6,4 +6,16 @@
 	--color02B: rgba(145, 143, 235, 0.233);
 	--color03: #eeeeee;
 	--color03B: #c7c7c7ec;
+}*/
+
+:root {
+	--color00: #1b1b1b;
+	--color01: #303030;
+	--color01C: #e2b01a;
+	--color01B: #e2e2e2e7;
+	--color02: #dfcf43;
+	--color02B: rgba(235, 198, 143, 0.342);
+	--color03: #eeeeee;
+	--color03B: #f8f8f8ec;
+	--color04: #181818;
 }

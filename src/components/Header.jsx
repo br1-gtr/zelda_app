@@ -23,7 +23,7 @@ export const Header = () => {
 			<div className="header_titulo-cont">
 				<img src={imgTitulo} alt="asd" className="titulo_img" />
 				{/*<FaLink size={positionScroll ? 25 : 30} className="titulo_icon" />*/}
-				<h1>LINK ED</h1>
+				<h1>Link Ed</h1>
 			</div>
 
 			<Reloj estadoScroll={positionScroll} />

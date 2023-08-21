@@ -6,12 +6,12 @@ export const DATOS_EXCEL = [
 	},
 	{
 		enlace: 'https://duckduckgo.com/',
-		alias: 'DuckDuckGo (privacidad;bangs)',
+		alias: 'DuckDuckGo (privacidad; bangs)',
 		categoria: '01 - Buscadores',
 	},
 	{
 		enlace: 'https://gibiru.com',
-		alias: 'Gibiru (privacidad;s/censura;contenidos)',
+		alias: 'Gibiru (privacidad; s/censura; contenidos)',
 		categoria: '01 - Buscadores',
 	},
 	{
@@ -26,17 +26,17 @@ export const DATOS_EXCEL = [
 	},
 	{
 		enlace: 'https://www.qwant.com/?l=es',
-		alias: 'Qwant (privacidad;completo)',
+		alias: 'Qwant (privacidad; completo)',
 		categoria: '01 - Buscadores',
 	},
 	{
 		enlace: 'https://www.searchencrypt.com/home',
-		alias: 'Search Encrypt (privacidad;cifrado)',
+		alias: 'Search Encrypt (privacidad; cifrado)',
 		categoria: '01 - Buscadores',
 	},
 	{
 		enlace: 'https://www.startpage.com/es/',
-		alias: 'StartPage (privacidad;google)',
+		alias: 'StartPage (privacidad; google)',
 		categoria: '01 - Buscadores',
 	},
 	{
@@ -82,7 +82,7 @@ export const DATOS_EXCEL = [
 	{
 		enlace: 'https://www.dropbox.com',
 		alias: 'Dropbox',
-		categoria: '03 - Almacenamieto Nube',
+		categoria: '03 - Almacenamiento Nube',
 	},
 	{
 		enlace: 'https://www.google.com/intl/es-419_ar/drive/',
@@ -227,8 +227,23 @@ export const DATOS_EXCEL = [
 		categoria: '07 - Redes Sociales',
 	},
 	{
+		enlace: 'https://www.yammer.com/',
+		alias: 'Yammer',
+		categoria: '07 - Redes Sociales',
+	},
+	{
 		enlace: 'https://www.primevideo.com',
 		alias: 'Amazon Prime',
+		categoria: '08 - Streaming',
+	},
+	{
+		enlace: 'https://play.cine.ar/bienvenida/',
+		alias: 'Cine Ar Play',
+		categoria: '08 - Streaming',
+	},
+	{
+		enlace: 'https://www.cont.ar/',
+		alias: 'contar',
 		categoria: '08 - Streaming',
 	},
 	{
@@ -242,49 +257,39 @@ export const DATOS_EXCEL = [
 		categoria: '08 - Streaming',
 	},
 	{
-		enlace: 'https://www.starplus.com/es-ar',
-		alias: 'Star+',
-		categoria: '08 - Streaming',
-	},
-	{
 		enlace: 'https://pluto.tv/es/',
 		alias: 'Pluto TV',
 		categoria: '08 - Streaming',
 	},
 	{
-		enlace: 'https://www.cont.ar/',
-		alias: 'contar',
-		categoria: '08 - Streaming',
-	},
-	{
-		enlace: 'https://play.cine.ar/bienvenida/',
-		alias: 'Cine Ar Play',
+		enlace: 'https://www.starplus.com/es-ar',
+		alias: 'Star+',
 		categoria: '08 - Streaming',
 	},
 	{
 		enlace: 'https://daseininstituto.educativa.org/index.cgi?id_curso=111',
 		alias: 'Dasein Instituto',
-		categoria: '09 -Educacion',
+		categoria: '09 – Educacion',
 	},
 	{
 		enlace: 'https://www.dolus.com.ar',
 		alias: 'Dolus - Counseling Duelos',
-		categoria: '09 -Educacion',
+		categoria: '09 – Educacion',
 	},
 	{
 		enlace: 'https://es.duolingo.com/',
 		alias: 'Duolingo Idiomas',
-		categoria: '09 -Educacion',
+		categoria: '09 – Educacion',
 	},
 	{
 		enlace: 'https://elfaroasociacion.org.ar/',
 		alias: 'El Faro Asociacion',
-		categoria: '09 -Educacion',
+		categoria: '09 – Educacion',
 	},
 	{
 		enlace: 'https://translate.google.com.ar/',
 		alias: 'Traductor Google',
-		categoria: '09 -Educacion',
+		categoria: '09 – Educacion',
 	},
 	{
 		enlace: 'https://www.bumeran.com.ar/',
@@ -346,23 +351,68 @@ export const DATOS_EXCEL = [
 		categoria: '11 - Horarios Tren',
 	},
 	{
-		enlace: 'http://www.mercadolibre.com.ar/',
-		alias: 'Mercadolibre',
-		categoria: '12 - Venta Online',
-	},
-	{
-		enlace: 'https://www.olx.com.ar/',
-		alias: 'Olx',
-		categoria: '12 - Venta Online',
+		enlace: 'https://www.dailymotion.com/es',
+		alias: 'Dailymotion',
+		categoria: '12 - Videos',
 	},
 	{
 		enlace: 'https://vimeo.com/es/',
 		alias: 'Vimeo',
-		categoria: '13 - Videos',
+		categoria: '12 - Videos',
 	},
 	{
 		enlace: 'http://www.youtube.com/',
 		alias: 'Youtube',
-		categoria: '13 - Videos',
+		categoria: '12 - Videos',
+	},
+	{
+		enlace: 'https://cineclasicodcc.com/',
+		alias: 'cineclasico',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://gnula.nu/',
+		alias: 'gnula.nu',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://gnula.se/',
+		alias: 'gnula.se',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://lookmovie2.to/',
+		alias: 'lookmovie2.to',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://mitorrent.me/',
+		alias: 'mitorrent.me',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://pelismaraton.nu/',
+		alias: 'pelismaraton.nu',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://serieslan.com/',
+		alias: 'series viejunas',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://seriesretro.com/',
+		alias: 'seriesretro',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'https://yts.mx/',
+		alias: 'yts.mx',
+		categoria: '13 – Otros',
+	},
+	{
+		enlace: 'http://www.mercadolibre.com.ar/',
+		alias: 'zMercadolibre',
+		categoria: '13 – Otros',
 	},
 ];

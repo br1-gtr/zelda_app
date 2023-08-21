@@ -42,7 +42,7 @@
 	position: absolute;
 	bottom: -13px;
 	right: 50px;
-	border: 2px solid var(--color02);
+	border: 2px solid var(--color01C);
 	border-radius: 12px;
 	display: flex;
 	align-items: center;
